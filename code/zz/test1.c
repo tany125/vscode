@@ -1,0 +1,12 @@
+#include<stdio.h>
+void f(int *p)
+{
+    printf("p=%p\n", p);
+}
+int main()
+{
+    int i = 6;
+    printf("&i=%p\n", &i);
+    f(&i);
+    return 0;
+}
